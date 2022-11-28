@@ -1,0 +1,10 @@
+/*capturing the universal selector*/
+* {
+    margin: 0;
+    padding: 0;
+}
+.body {
+background: linear-gradient(135deg, #FBFACD 0%, #DEBACE 40%,#BA94D1 80%
+);
+    height: 100vh;
+}
