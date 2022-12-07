@@ -8,6 +8,10 @@
     background: linear-gradient(135deg, #FBFACD 0%, #DEBACE 40%, #BA94D1 80%
     );
     height: 100vh;
+    /*display: flex;*/
+    /*flex-wrap: wrap;*/
+    /*align-items: center;*/
+    /*align-content: center;*/
     /*text-align: center;*/
 
 }
@@ -20,6 +24,7 @@
     top: 50%;
     transform: translate(-50%, -50%);
 }
+
 
 #toDoListControls {
     width: 50vw;
