@@ -3,8 +3,40 @@
     margin: 0;
     padding: 0;
 }
+
 .body {
-background: linear-gradient(135deg, #FBFACD 0%, #DEBACE 40%,#BA94D1 80%
-);
+    background: linear-gradient(135deg, #FBFACD 0%, #DEBACE 40%, #BA94D1 80%
+    );
     height: 100vh;
+    /*text-align: center;*/
+
+}
+
+.todoListBody, #toDoListControls {
+    /*center anything in center of parent based on x and y aches*/
+    position: absolute;
+    right: 50%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#toDoListControls {
+    width: 50vw;
+    padding-bottom: 17vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.todoListBody {
+    width: 50vw;
+}
+
+.paragraph {
+    text-align: center;
+}
+
+.addTodoBtn {
+    height: 5vh;
 }
